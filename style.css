@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f7fa;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 450px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+h1, h2 {
+  margin-bottom: 1em;
+}
+textarea {
+  width: 100%;
+  margin-top: 1em;
+  font-size: 1.1em;
+  padding: 0.6em;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  resize: vertical;
+}
+button {
+  padding: 0.5em 1.5em;
+  margin: 0.3em 0.3em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  background: #3e8df4;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:disabled {
+  background: #a4c9fa;
+  cursor: not-allowed;
+}
+#status, #ai-status {
+  color: #888;
+  font-size: 0.95em;
+  margin-top: 0.7em;
+}
+hr {
+  margin: 2em 0 1em 0;
+}

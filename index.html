@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech to Text (with AI)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Speech to Text</h1>
+    <button id="start-btn">Start Listening</button>
+    <button id="stop-btn" disabled>Stop</button>
+    <p id="status"></p>
+    <textarea id="output" rows="8" placeholder="Your speech will appear here..."></textarea>
+
+    <hr>
+    <h2>AI Transcription (Wav2Vec2)</h2>
+    <form id="upload-form">
+      <input type="file" accept="audio/*" id="audio-file" required>
+      <button type="submit">Transcribe with AI</button>
+    </form>
+    <p id="ai-status"></p>
+    <textarea id="ai-output" rows="8" placeholder="AI transcription will appear here..."></textarea>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
